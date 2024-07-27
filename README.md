@@ -28,7 +28,3 @@
     <pre><code>python main.py</code></pre>
   </li>
 </ol>
-
-<p align="center">
-  For more details, please refer to the documentation.
-</p>
