@@ -48,7 +48,7 @@ def Q():
 	if L:M=', '.join(L);N='\x1b[34m'
 	else:M='No open ports found';N=G
 	O=W(K)
-	if O:Z=[f"{A} - More info: {B}"for(A,B)in O];P=E.join(Z);Q='\x1b[35m'
+	if O:Z=[f"{A} - ]8;;{B}\\CLICK FOR OPEN]8;;\\"for(A,B)in O];P=E.join(Z);Q='\x1b[35m'
 	else:P='No CVEs found';Q=G
 	a=[[f"{B}IP Address{A}",F],[f"{B}Hostnames{A}",J+I+A],[f"{B}Open Ports{A}",N+M+A],[f"{B}CVEs{A}",Q+P+A]];D(E);D(R(a,headers=[f"{B}Category{A}",f"{B}Details{A}"],tablefmt='grid'))
 if __name__=='__main__':Q()
