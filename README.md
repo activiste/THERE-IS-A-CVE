@@ -24,3 +24,7 @@
     <pre><code>python main.py</code></pre>
   </li>
 </ol>
+
+<p align="center">
+  next update will contain a feature to automatically find an exploit for found CVEs.
+</p>
