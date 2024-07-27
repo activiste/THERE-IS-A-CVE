@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="img/thereisacve.png" alt="There is a CVE" width="300"/>
-</div>
-
 <h1 align="center">There is a CVE</h1>
 
 <p align="center">
