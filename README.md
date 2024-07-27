@@ -9,7 +9,7 @@
 <ol>
   <li>
     Clone the repository:
-    <pre><code>git clone https://github.com/yourusername/there-is-a-cve.git</code></pre>
+    <pre><code>git clone https://github.com/activiste/there-is-a-cve.git</code></pre>
   </li>
   <li>
     Navigate to the project directory:
