@@ -12,7 +12,7 @@ A='\x1b[0m'
 B='\x1b[1m'
 Z='\x1b[4m'
 def L():return f"{F.randint(0,255):02X}{F.randint(0,255):02X}{F.randint(0,255):02X}"
-def P(start_color,end_color,factor):B=[G(start_color[A:A+2],16)for A in(0,2,4)];C=[G(end_color[A:A+2],16)for A in(0,2,4)];A=[G(B[A]+(C[A]-B[A])*factor)for A in range(3)];return f"[38;2;{A[0]};{A[1]};{A[2]}m"
+def P(start_color,end_color,factor):C=[G(start_color[A:A+2],16)for A in(0,2,4)];B=[G(end_color[A:A+2],16)for A in(0,2,4)];A=[G(C[A]+(B[A]-B[A])*factor)for A in range(3)];return f"[38;2;{A[0]};{A[1]};{A[2]}m"
 def M(text,width):return text.center(width)
 def S():
 	G='\n▄▄▄█████▓ ██▓ ▄▄▄       ▄████▄  \n▓  ██▒ ▓▒▓██▒▒████▄    ▒██▀ ▀█  \n▒ ▓██░ ▒░▒██▒▒██  ▀█▄  ▒▓█    ▄ \n░ ▓██▓ ░ ░██░░██▄▄▄▄██ ▒▓▓▄ ▄██▒\n  ▒██▒ ░ ░██░ ▓█   ▓██▒▒ ▓███▀ ░\n  ▒ ░░   ░▓   ▒▒   ▓▒█░░ ░▒ ▒  ░\n    ░     ▒ ░  ▒   ▒▒ ░  ░  ▒   \n  ░       ▒ ░  ░   ▒   ░        \n          ░        ░  ░░ ░      \n                       ░        \n    ';H=L();I=L();B=G.split(E);N=len(B);O=K.get_terminal_size().columns
@@ -33,8 +33,9 @@ def X(content):
 	if A:C=[A.get_text(strip=True)for A in A.find_all('a',class_='bg-primary')];return C
 	return[]
 def Y(ip):
-	try:A=dns.resolver.resolve_address(ip);return[A.to_text()[:-1]for A in A]
-	except Exception as B:D(f"Error resolving domains: {B}");return[]
+	try:A=dns.reversename.from_address(ip);B=str(A);C=dns.resolver.resolve(B,'PTR');return[str(A)[:-1]for A in C]
+	except dns.resolver.NXDOMAIN:return[]
+	except Exception as E:D(f"Error resolving domains: {E}");return[]
 def Q():
 	G='\x1b[31m';S();T(f"{B}       Dev By Sparked | https://github.com/activiste{A}\n\n",speed=.01);C=input('TARGET >>> ')
 	if C.startswith('http://')or C.startswith('https://'):C=C.split('://')[1]
