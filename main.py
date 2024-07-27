@@ -36,7 +36,7 @@ def Y(ip):
 	try:A=dns.resolver.resolve_address(ip);return[A.to_text()[:-1]for A in A]
 	except Exception as B:D(f"Error resolving domains: {B}");return[]
 def Q():
-	G='\x1b[31m';S();T(f"{B}       Dev By Sparked | https://github.com/activiste{A}\n\n",speed=.05);C=input('TARGET >>> ')
+	G='\x1b[31m';S();T(f"{B}       Dev By Sparked | https://github.com/activiste{A}\n\n",speed=.01);C=input('TARGET >>> ')
 	if C.startswith('http://')or C.startswith('https://'):C=C.split('://')[1]
 	if not C.replace('.','').isdigit():F=U(C)
 	else:F=C
