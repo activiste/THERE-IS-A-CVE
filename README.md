@@ -45,3 +45,9 @@
 <p align="center">
   The next update will contain functionality to exploit vulnerabilities found directly in the tool.
 </p>
+<h2 align="center">
+  <img src="https://img.shields.io/badge/Warning-%F0%9F%9A%A8-red" alt="Warning" />
+</h2>
+<p align="center">
+  <strong>Note for Windows users :</strong> You may encounter issues running this tool on Windows. It is recommended to use a Linux virtual machine to ensure full functionality.
+</p>
