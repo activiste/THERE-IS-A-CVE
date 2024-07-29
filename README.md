@@ -15,13 +15,15 @@
 <h1>Features :</h1>
 <p align="center"><strong>Interactive Menu :</strong> scanning an IP address or URL and searching for exploits.</p>
 <p align="center"><strong>Shodan Integration :</strong> Quickly retrieve information about an IP address including open ports and CVEs.</p>
-<p align="center"><strong>exploit search :</strong> Enter a CVE ID or other like names to find relevant exploits using searchsploit.</p>
+<p align="center"><strong>Exploit Search :</strong> Enter a CVE ID or other identifiers to find relevant exploits using searchsploit.</p>
 <h2 align="center">
   <img src="https://img.shields.io/badge/Installation-%F0%9F%9A%80-brightgreen" alt="Installation" />
 </h2>
+<p align="center"><strong>For Linux Users:</strong> TIAC can now be installed easily via pip:</p>
+<pre><code>pip install there-is-a-cve</code></pre>
 <ol>
   <li>
-    Clone the repository:
+    Clone the repository (if you prefer manual installation):
     <pre><code>git clone https://github.com/activiste/there-is-a-cve.git</code></pre>
   </li>
   <li>
@@ -29,7 +31,7 @@
     <pre><code>cd there-is-a-cve</code></pre>
   </li>
   <li>
-    install requirements:
+    Install requirements:
     <pre><code>pip install -r requirements.txt</code></pre>
   </li>
   <li>
@@ -53,5 +55,5 @@
   <img src="https://img.shields.io/badge/Warning-%F0%9F%9A%A8-red" alt="Warning" />
 </h2>
 <p align="center">
-  <strong>Note for Windows users :</strong> You may encounter issues running this tool on Windows. It is recommended to use a Linux virtual machine to ensure full functionality.
+  <strong>Note for Windows users:</strong> You may encounter issues running this tool on Windows. It is recommended to use a Linux virtual machine to ensure full functionality.
 </p>
