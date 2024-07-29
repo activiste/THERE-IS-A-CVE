@@ -29,6 +29,10 @@
     <pre><code>cd there-is-a-cve</code></pre>
   </li>
   <li>
+    install requirements:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>
     Run the tool:
     <pre><code>python main.py</code></pre>
   </li>
