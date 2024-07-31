@@ -1,5 +1,5 @@
 <h1 align="center">
-  There is a CVE (TIAC) 🕵️ - ExploitDB & Metasploit Integration
+  There is a CVE (TIAC) 🕵️
 </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-green" alt="Status: Active" />
