@@ -19,7 +19,7 @@
 <h1>Features :</h1>
 <p align="center"><strong>Interactive Menu :</strong> Scanning an IP address or URL and searching for exploits.</p>
 <p align="center"><strong>Shodan Integration :</strong> Quickly retrieve information about an IP address including open ports and CVEs.</p>
-<p align="center"><strong>Exploit Search :</strong> Enter a CVE ID or other identifiers to find relevant exploits using searchsploit, Metasploit, or the ExploitDB database.</p>
+<p align="center"><strong>Exploit Search :</strong> Enter a CVE ID or other identifiers to find relevant exploits using searchsploit with the exploit-db database,and Metasploit.</p>
 <h2 align="center">
   <img src="https://img.shields.io/badge/Installation-%F0%9F%9A%80-brightgreen" alt="Installation" />
 </h2>
