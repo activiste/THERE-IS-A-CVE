@@ -14,7 +14,7 @@
   database to find relevant exploits.
 </p>
 <h2 align="center">
-  <img src="https://i.ibb.co/MydBYsg/Capture-d-cran-du-2024-07-27-19-49-43.png" alt="Tool Image" width="600" />
+  <img src="https://i.ibb.co/t2XVr8p/Capture-d-cran-du-2024-08-01-00-41-40.png" alt="Tool Image" width="600" />
 </h2>
 <h1>Features :</h1>
 <p align="center"><strong>Interactive Menu :</strong> Scanning an IP address or URL and searching for exploits.</p>
